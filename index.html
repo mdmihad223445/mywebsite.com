@@ -1,13 +1,88 @@
 <!DOCTYPE html>
-<!-- This is intentionally minimal HTML to prevent source viewing -->
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Portal</title>
-    <link rel="stylesheet" href="data:text/css;base64,LmhpZGRlbi12aWRlb3twb3NpdGlvbjphYnNvbHV0ZTt3aWR0aDoxcHg7aGVpZ2h0OjFweDtwYWRkaW5nOjA7bWFyZ2luOi0xcHg7b3ZlcmZsb3c6aGlkZGVuO2NsaXA6cmVjdCgwLDAsMCwwKTtib3JkZXI6MH0=">
 </head>
 <body>
-    <div id="app"></div>
-    <div id="sec-warn" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:black;color:red;z-index:9999;display:flex;justify-content:center;align-items:center;font-size:24px;">ACCESS DENIED</div>
-    <script src="script.js"></script>
+    <!-- COMPLETE NEWS PORTAL CONTENT -->
+    <header>
+        <div class="container">
+            <h1>Daily News Network</h1>
+            <p>Your trusted source for the latest updates</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            <main class="articles">
+                <article>
+                    <h2>Global Summit Addresses Climate Change Concerns</h2>
+                    <p>World leaders gathered today to discuss urgent measures against climate change. The summit, held in Geneva, focused on reducing carbon emissions and promoting renewable energy sources.</p>
+                    <p>Experts warn that without immediate action, the planet could face irreversible damage within the next decade. Several countries have pledged to increase their investments in green technology.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <article>
+                    <h2>Tech Giant Unveils Revolutionary Smartphone</h2>
+                    <p>The latest smartphone from industry leader TechCorp features groundbreaking battery technology that promises up to 72 hours of continuous use on a single charge.</p>
+                    <p>Early reviews praise the device's innovative camera system and AI-powered features. The phone is expected to hit stores next month with a starting price of $899.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <article>
+                    <h2>Stock Markets Reach Record Highs</h2>
+                    <p>Global markets surged today as investor confidence grows amid positive economic indicators. The S&P 500 and NASDAQ both closed at all-time highs.</p>
+                    <p>Analysts attribute the rally to strong corporate earnings and easing trade tensions between major economies. However, some warn of potential volatility ahead.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </main>
+
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3>Subscribe to Newsletter</h3>
+                    <p>Get the latest news delivered to your inbox daily.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+                        <button type="submit" style="background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 3px; cursor: pointer;">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Trending Now</h3>
+                    <ul>
+                        <li><a href="#">Celebrity Wedding Breaks the Internet</a></li>
+                        <li><a href="#">New Study Reveals Health Benefits of Coffee</a></li>
+                        <li><a href="#">Tourist Finds Rare Artifact on Beach</a></li>
+                        <li><a href="#">Scientists Discover New Species in Amazon</a></li>
+                        <li><a href="#">Popular TV Show Renewed for Final Season</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Daily News Network. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Hidden scanning elements -->
+    <div id="inspect-warning">ACCESS DENIED - You Cant Noob</div>
 </body>
 </html>
